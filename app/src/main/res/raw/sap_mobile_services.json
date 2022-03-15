@@ -1,0 +1,18 @@
+{
+  "__comment": "When modifying this file, you need to reset or reinstall all current client installations",
+  "auth": [{
+      "type": "oauth2",
+      "config": {
+        "oauth2.clients": [
+
+          { "clientID": "b4c356bb-3a2a-4b9e-be7e-f13f559c2d20", "redirectURL": "https://oauthasservices-a7c995ebb.hana.ondemand.com", "grantType": "authorization_code" }
+        ],
+        "oauth2.tokenEndpoint": "https://oauthasservices-a7c995ebb.hana.ondemand.com/oauth2/api/v1/token",
+        "oauth2.authorizationEndpoint": "https://oauthasservices-a7c995ebb.hana.ondemand.com/oauth2/api/v1/authorize",
+        "oauth2.endUserUI": "https://oauthasservices-a7c995ebb.hana.ondemand.com/oauth2"
+      },
+      "requireOtp": false
+    }],
+  "ServiceUrl" : "https://mobile-a7c995ebb.hana.ondemand.com/",
+  "appID": "com.sap.copyapp"
+}
